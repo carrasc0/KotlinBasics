@@ -26,9 +26,3 @@ fun divid(first: Int, second: Int): Long = (first / second).toLong()
 fun printList(list: Array<String>){
     for (day in list) println(day)
 }
-
-fun printListAndPositions(list: Array<String>){
-    for ((position, value) in list.withIndex()){
-        println("Position $position Value $value")
-    }
-}

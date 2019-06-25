@@ -1,6 +1,7 @@
 
 
 fun main() {
+
     val weekDays = arrayOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
     weekDays[3] = "Jueves"
     weekDays[6] = "Domingo"
@@ -8,6 +9,15 @@ fun main() {
     val a = weekDays.filter { it == "Monday" || it == "Sunday" }
 
 
+    val monthsOfYear = mutableListOf<String>()
+    monthsOfYear.add("January")
+    monthsOfYear.add("February")
+
+    println(monthsOfYear)
+
+    monthsOfYear.removeAt(1)
+
+    println(monthsOfYear)
 
 
 
