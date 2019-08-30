@@ -18,11 +18,17 @@ import kotlin.sequences.*
 import kotlin.text.*
 
 fun sockMerchant(n: Int, ar: Array<Int>): Int {
-    val pickedArray: Array<Int> = arrayOf()
-    val pivot: Int = ar[0]
-    //for ()
+    var count = 0
+    var pivot = 0
+    for ((index, value) in ar.withIndex()){
+        if (index == 0) continue
+       // if (ar[pivot] == )
+    }
+
     return 0
 }
+
+
 
 fun main(args: Array<String>) {
     val scan = Scanner(System.`in`)
