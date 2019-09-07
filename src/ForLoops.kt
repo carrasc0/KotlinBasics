@@ -1,12 +1,8 @@
 fun main() {
-
     val weekDays = arrayOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
-
     for (item in weekDays) println(item)
-
     println(printListAndPositions(weekDays))
     println(printPositions(weekDays))
-
     returnExpression()
     labels()
     anonymus()
